@@ -23,5 +23,7 @@ To test these questions, we decided to use the following data and take the follo
 7.	Source code will be published on Git hub https://github.com/cjmaqueda/crude_oil_flow_pattern
 ## Links to datasets 
 Clipper Data -Third Party database on global cargoes of crude oil, refined products and petrochemicals.  http://www.clipperdata.com/
+
 Environment Information Agency (EIA) API -Government database on crude oil, refined products and petrochemicals. https://www.eia.gov/	
-Quandl's API data products come in many forms and contain various objects, including time-series and tables. Through our APIs and various tools (R, Python, Excel, etc.), users can access/call the premium data to which they have subscribed. https://www.quandl.com/api/v3/datasets
+
+Quandl's API data products come in many forms and contain various objects, including time-series and tables. Users can access/call the premium data to which they have subscribed. https://www.quandl.com/api/v3/datasets
