@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Oil Flow Visualization Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navigation Section -->
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" style="background-color: rgb(14, 11, 173);" href="landing.html">Oil Prices</a>
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="oil_prices.html">Brent vs. WTI</a>
+              <a class="dropdown-item" href="load_vs_offtake_volumes.html">Load vs. Offtake Volume</a>
+              <a class="dropdown-item active" href="offtake_volumes.html">Offtake Volumes by Vessel Class</a>
+              <a class="dropdown-item" href="vessel_dwt.html">Vessel DWT</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <img class="panel" src="images/landing.png" alt="summary" height="100" width="134" style="margin: auto"></a>>
+  <!-- Content Section -->
+  <div class="container">
+    <div class="row mx-auto">
+      <div class="col-sm-7 bg-light text-dark border border-white">
+	  
+        <!-- Left box  -->
+        
+          <h3 class="title">Closer Look at the Data...
+		 </h3>
+          <p>
+          <img src="https://www.eia.gov/todayinenergy/images/2014.09.16/chart2.png" alt="landing" class="img-responsive" width="80%" height="auto">
+           </p> <!--<p>The purpose of this project was to analyze how oil flows changes as oil prices change. To
+            accomplish this analysis, data was extraced from the company Clipper Data, as well as the Energy Information Administration (EIA) API to assemble a dataset on over
+            global oil flows and prices dating back to 2015.</p>
+          <p>After assembling the dataset, Matplotlib was used to contrast various aspects of the oil price change vs. oil flow.
+            Factors analyzed included: Oil price (Brent and WTI), load volumes (exports) and offtake volumes (imports), and vessel DWT. Included for review on the dashbaord is the
+            the source data and visualizations, as well as explanations and descriptions of
+            any trends and correlations observed.</p> -->
+        
+      </div>
+      <div class="col-sm-5 bg-light text-dark text-center border border-white">
+        <!-- Right Box -->
+        <div class="box">
+          <h5 class="title">Visualizations Galore!
+		  </h5>
+          <hr>
+          <div class="container">
+            <div class="row" style="padding-bottom: 30px;">
+              
+                <a href="oil_prices.html">
+                  <img class="panel" src="images/wti_prices.png" alt="Oil Prices Image" height="100" width="134" style="margin: auto"></a>
+                </a>
+             
+              
+                <a href="load_vs_offtake_volumes.html">
+                  <img class="panel active" src="images/load_offtake.png" alt="Load vs. Offtake Volumes Graph" height="100" width="134" style="margin: auto"></a>
+                </a>
+                        
+           <!--   <div class="col-lg-6 col-md-3">
+                <a href="offtake_volumes.html">
+                  <img class="panel" src="images/landing.png" alt="Offtake Volumes Graph" height="100" width="134" style="margin: auto"></a>>
+                </a>
+              </div> -->
+              
+                <a href="vessel_dwt.html">
+                  <img class="panel" src="images/bbls_by_vessel_class.png" alt="Vessel Graph" height="100" width="134" style="margin: auto"></a>>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <head>
+    <style type="text/css">
+        .header{
+            text-align: center;
+            background-color: rgb(136, 185, 229);
+            height: 70px;
+            line-height: 70px;
+        }
+        .chart{
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div class="header">
+        <h2>
+            Plotly Chart 
+        </h2>
+    </div>
+ 
+    <div id="chart" class="chart">
+        Dynamic Chart will be here!
+    </div>
+ 
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer">Copyright &copy; 3-person Team 2019: Amy, Carlos, Madelaine </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
