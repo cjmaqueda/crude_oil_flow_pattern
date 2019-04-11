@@ -62,7 +62,20 @@
 		 </h3>
           <p>
           <img src="https://www.eia.gov/todayinenergy/images/2014.09.16/chart2.png" alt="landing" class="img-responsive" width="80%" height="auto">
-           </p> <!--<p>The purpose of this project was to analyze how oil flows changes as oil prices change. To
+           </p> 
+		       <div id="chart" class="chart">
+        <script type="text/javascript" src="https://www.oil-price.net/TABLE2/gen.php?lang=en"> </script>
+        <script> To get the WTI <a href="http://www.oil-price.net/dashboard.php?lang=en#TABLE2">oil price</a>, please enable Javascript.</script>	
+	<script type="text/javascript" src="https://www.oil-price.net/widgets/brent_crude_price_large/gen.php?lang=en"> </script>
+<script> To get the BRENT <a href="http://www.oil-price.net/dashboard.php?lang=en#brent_crude_price_large">oil price</a>, please enable Javascript.</script>	
+    </div>
+	<h3 class="title">Crude oil prices react to geopolitical and economic events</h3>
+	<p>
+          <img src="https://www.worldoiltraders.com/wp-content/uploads/2016/11/crude_oil_prices.png" alt="landing" class="img-responsive" width="80%" height="auto">
+           </p> 
+	
+
+		   <!--<p>The purpose of this project was to analyze how oil flows changes as oil prices change. To
             accomplish this analysis, data was extraced from the company Clipper Data, as well as the Energy Information Administration (EIA) API to assemble a dataset on over
             global oil flows and prices dating back to 2015.</p>
           <p>After assembling the dataset, Matplotlib was used to contrast various aspects of the oil price change vs. oil flow.
@@ -124,13 +137,364 @@
  
     <div class="header">
         <h2>
-            Plotly Chart 
+            Close Encounter of Export and Import Ports !
         </h2>
     </div>
+	
+	<div class="mapblock">
+<img src="https://www.clipperoil.com/wp-content/themes/clipperoil-new/images/clipperoil_map_final_2018.gif" alt="Banner" width="100%" border="0" usemap="#clipper_map" data-selected="true" data-label-id="0">
+	
+<map name="clipper_map">
+
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-usa/fuel-in-alaska/" shape="circle" coords="554,18,10" rel="#plm_150685" alt="Fuel in Alaska" title="Fuel in Alaska">
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-usa/fuel-in-hawaii/" shape="circle" coords="516,127,10" rel="#plm_888" alt="Fuel in Hawaii" title="Fuel in Hawaii">
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-usa/" shape="circle" coords="631,22,10" rel="#plm_1735_2" alt="Fuel in theFuel in USA" title="Fuel in the Fuel in USA">
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=4">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-american-samoa/" shape="circle" coords="523,197,10" rel="#plm_4" alt="Fuel in American Samoa" title="Fuel in American Samoa">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=19">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-australia/" shape="circle" coords="421,255,10" rel="#plm_19" alt="Fuel in Australia" title="Fuel in Australia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2110">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-canada/" shape="circle" coords="635,8,10" rel="#plm_2110" alt="Fuel in Canada" title="Fuel in Canada">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1923">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-chile/" shape="circle" coords="777,279,10" rel="#plm_1923" alt="Fuel in Chile" title="Fuel in Chile">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1945">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-china/" shape="circle" coords="279,48,10" rel="#plm_1945" alt="Fuel in China" title="Fuel in China">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=25">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-cnmi-saipan/" shape="circle" coords="375,129,10" rel="#plm_25" alt="Fuel in CNMI (Saipan)" title="Fuel in CNMI (Saipan)">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1966">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-colombia/" shape="circle" coords="766,153,10" rel="#plm_1966" alt="Fuel in Colombia" title="Fuel in Colombia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=784">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-cook-islands/" shape="circle" coords="562,233,10" rel="#plm_784" alt="Fuel in Cook Islands" title="Fuel in Cook Islands">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2005">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-costa-rica/" shape="circle" coords="733,165,10" rel="#plm_2005" alt="Fuel in Costa Rica" title="Fuel in Costa Rica">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=790">-->
+<area href="https://www.clipperoil.com/port_locations/ecuador/" shape="circle" coords="742,189,10" rel="#plm_790" alt="Fuel in Ecuador" title="Fuel in Ecuador">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1984">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-el-salvador/" shape="circle" coords="723,149,10" rel="#plm_1984" alt="Fuel in El Salvador" title="Fuel in El Salvador">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=801">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-federated-states-of-micronesia-fsm/" shape="circle" coords="380,150,10" rel="#plm_801" alt="Fuel in Federated States of Micronesia - FSM" title="Fuel in Federated States of Micronesia - FSM">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=852">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-fiji/" shape="circle" coords="477,204,10" rel="#plm_852" alt="Fuel in Fiji" title="Fuel in Fiji">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=869">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-galapagos-islands/" shape="circle" coords="713,189,10" rel="#plm_869" alt="Fuel in Galapagos Islands" title="Fuel in Galapagos Islands">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=881">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-guam/" shape="circle" coords="341,139,10" rel="#plm_881" alt="Fuel in Guam" title="Fuel in Guam">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1977">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-guatemala/" shape="circle" coords="709,146,10" rel="#plm_1977" alt="Fuel in Guatemala" title="Fuel in Guatemala">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1992">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-honduras/" shape="circle" coords="726,139,10" rel="#plm_1992" alt="Fuel in Honduras" title="Fuel in Honduras">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2019">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-hongkong/" shape="circle" coords="279,115,10" rel="#plm_2019" alt="Fuel in Hong Kong" title="Fuel in Hong Kong">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=894">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-indonesia/" shape="circle" coords="322,191,10" rel="#plm_894" alt="Fuel in Indonesia" title="Fuel in Indonesia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=960">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-japan/" shape="circle" coords="327,62,10" rel="#plm_960" alt="Fuel in Japan" title="Fuel in Japan">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1027">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-kiribati/" shape="circle" coords="421,148,10" rel="#plm_1027" alt="Fuel in Kiribati" title="Fuel in Kiribati">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2025">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-malaysia/" shape="circle" coords="291,172,10" rel="#plm_2025" alt="Fuel in Malaysia" title="Fuel in Malaysia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1036">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-marquesas-islands-french-polynesia/" shape="circle" coords="563,189,10" rel="#plm_1036" alt="Fuel in Marquesas Islands (French Polynesia)" title="Fuel in Marquesas Islands (French Polynesia)">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1045">-->
+<area href="https://www.clipperoil.com/port_locations/marshall-islands/" shape="circle" coords="419,118,10" rel="#plm_1045" alt="Fuel in Marshall Islands" title="Fuel in Marshall Islands">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1052">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-mexico/" shape="circle" coords="677,132,10" rel="#plm_1052" alt="Fuel in Mexico" title="Fuel in Mexico">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1074">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-new-caledonia/" shape="circle" coords="462,233,10" rel="#plm_1074" alt="Fuel in New Caledonia" title="Fuel in New Caledonia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1084">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-new-zealand/" shape="circle" coords="499,299,10" rel="#plm_1084" alt="Fuel in New Zealand" title="Fuel in New Zealand">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2000">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-nicaragua/" shape="circle" coords="735,149,10" rel="#plm_2000" alt="Fuel in Nicaragua" title="Fuel in Nicaragua">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1102">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-palau/" shape="circle" coords="339,152,10" rel="#plm_1102" alt="Fuel in Palau" title="Fuel in Palau">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1554">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-panama/" shape="circle" coords="745,163,10" rel="#plm_1554" alt="Fuel in Panama" title="Fuel in Panama">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1569">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-papua-new-guinea/" shape="circle" coords="390,181,10" rel="#plm_1569" alt="Fuel in Papua New Guinea" title="Fuel in Papua New Guinea">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1606">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-peru/" shape="circle" coords="742,213,10" rel="#plm_1606" alt="Fuel in Peru" title="Fuel in Peru">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=51">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-philippines/" shape="circle" coords="307,141,10" rel="#plm_51" alt="Fuel in Philippines" title="Fuel in Philippines">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=104867">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-russia/" shape="circle" coords="305,19,10" rel="#plm_104867" alt="Fuel in Russia" title="Fuel in Russia">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1618">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-samoa/" shape="circle" coords="505,194,10" rel="#plm_1618" alt="Fuel in Samoa" title="Fuel in Samoa">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1624">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-singapore/" shape="circle" coords="266,183,10" rel="#plm_1624" alt="Fuel in Singapore" title="Fuel in Singapore">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1634">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-solomon-islands/" shape="circle" coords="426,189,10" rel="#plm_1634" alt="Fuel in Solomon Islands" title="Fuel in Solomon Islands">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1643">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-south-korea/" shape="circle" coords="305,62,10" rel="#plm_1643" alt="Fuel in South Korea" title="Fuel in South Korea">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1661">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-tahiti/" shape="circle" coords="540,202,10" rel="#plm_1661" alt="Fuel in Tahiti" title="Fuel in Tahiti">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1667">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-taiwan/" shape="circle" coords="302,108,10" rel="#plm_1667" alt="Fuel in Taiwan" title="Fuel in Taiwan">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1685">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-thailand/" shape="circle" coords="244,159,10" rel="#plm_1685" alt="Fuel in Thailand" title="Fuel in Thailand">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1717">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-tonga/" shape="circle" coords="492,210,10" rel="#plm_1717" alt="Fuel in Tonga" title="Fuel in Tonga">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1729">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-tuvalu/" shape="circle" coords="430,160,10" rel="#plm_1729" alt="Fuel in Tuvalu" title="Fuel in Tuvalu">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1735">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-the-usa/" shape="circle" coords="628,68,10" rel="#plm_1735" alt="Fuel in USA" title="Fuel in USA">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=1744">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-vanuatu/" shape="circle" coords="443,197,10" rel="#plm_1744" alt="Fuel in Vanuatu" title="Fuel in Vanuatu">
+<!--</a>-->
+<!--<a href="https://www.clipperoil.com/?post_type=port_locations&#038;p=2036">-->
+<area href="https://www.clipperoil.com/port_locations/fuel-in-vietnam/" shape="circle" coords="272,143,10" rel="#plm_2036" alt="Fuel in Vietnam" title="Fuel in Vietnam">
+<!--</a>-->
+</map>
+<div id="plm_150685" style="display:none;">
+<div class="maptooltip_content"></div>
+</div>
+<div id="plm_888" style="display:none;">
+<div class="maptooltip_content">The Hawaiian capital of Honolulu is home to a very busy and excellent seaport.</div>
+</div>
+<div id="plm_1735_2" style="display:none;">
+<div class="maptooltip_content">San Diego and San Francisco in California, USA are not only major cities, they also have major port areas. These are Clipper Oil’s two main hubs that help supply marine fuels and lubricant oils to the west coast’s many vessels.</div>
+</div>
+<div id="plm_4" style="display:none;">
+<div class="maptooltip_content">The Pago Pago Port in American Samoa is one of the busiest and most important ports in the area.</div>
+</div>
+<div id="plm_19" style="display:none;">
+<div class="maptooltip_content">Botany Bay, Sydney, Newcastle, Fremantle/Perth, Darwin, Port Kembla, Melbourne, Brisbane, Cairns, &amp; Gladstone</div>
+</div>
+<div id="plm_2110" style="display:none;">
+<div class="maptooltip_content">The port of Vancouver on the Pacific is one of the busiest ports in Canada. This seaport hosts to a diverse array of maritime activities on a daily basis, creating the need for reliable fuel and lubricant suppliers.</div>
+</div>
+<div id="plm_1923" style="display:none;">
+<div class="maptooltip_content">Chile is a long, narrow country on the west coast of South America and has many important ports on the Pacific coast. Key ports that we supply at are Iquique, Valparaiso, San Antonio, Talcahuano, Puerto Montt and Punta Arenas.</div>
+</div>
+<div id="plm_1945" style="display:none;">
+<div class="maptooltip_content">Nanjin, Ningbo, Guangzhou, Dalian, Xiamen, Shanghai, Qingdao, Zhanjiang and Tianjin are all major cities in China with great seaports that are busy with vessels coming in and out on a daily basis. </div>
+</div>
+<div id="plm_25" style="display:none;">
+<div class="maptooltip_content">Clipper Oil realizes the importance of this point to the region’s seafaring activities and has established hubs in Chralie Dock and North Baker Dock.</div>
+</div>
+<div id="plm_1966" style="display:none;">
+<div class="maptooltip_content">Colombia has several port cities with the major ones being Santa Marta, Barranquilla, Cartagena and Buenaventura. All of these seaports are busy and have great oil requirements to power the maritime industry. </div>
+</div>
+<div id="plm_784" style="display:none;">
+<div class="maptooltip_content">We are able to provide marine fuels in cook islands and lubricants to various clients operating fishing boats.</div>
+</div>
+<div id="plm_2005" style="display:none;">
+<div class="maptooltip_content">The ports of Puerto Moin and Puerto Limon on the Gulf of Mexico, along with Puntarenas, Caldera and Golfito on the Pacific are some of the busiest ports in the country. </div>
+</div>
+<div id="plm_790" style="display:none;">
+<div class="maptooltip_content">In response to the demand for marine fuels and lubricant oils in Ecuador, Clipper oil has set up hubs in each city. </div>
+</div>
+<div id="plm_1984" style="display:none;">
+<div class="maptooltip_content">The port cities of Acajulta and La Union are two of the most populous and most economically important cities of the Central American nation of El Salvador.</div>
+</div>
+<div id="plm_801" style="display:none;">
+<div class="maptooltip_content">The ports of Pohnpei, Yap, Chuuk, and Kosrae are the busiest seaports in the Federal States of Micronesia.</div>
+</div>
+<div id="plm_852" style="display:none;">
+<div class="maptooltip_content">The ports of Suva, Lautoka, Denarau, and Levuka are all located in the Pacific islands of Fiji.</div>
+</div>
+<div id="plm_869" style="display:none;">
+<div class="maptooltip_content">The Santa Cruz and Baltra are two of the central islands in the Galapagos archipelago.</div>
+</div>
+<div id="plm_881" style="display:none;">
+<div class="maptooltip_content">Guam is an island located in the Western Pacific. It is a United States territory and is home to the Apra Harbor.</div>
+</div>
+<div id="plm_1977" style="display:none;">
+<div class="maptooltip_content">The ports of Santo Tomas de Castilla on the Gulf of Mexico, along with Puerto Quetzal on the Pacific are some of the busiest ports in the country. These seaports are hosts to a diverse array of maritime activities on a daily basis, creating the need for reliable fuel and lubricant suppliers. </div>
+</div>
+<div id="plm_1992" style="display:none;">
+<div class="maptooltip_content">The ports of Roatan, San Lorenzo, and Puerto Cortes are some of the busiest centers in the Central American maritime industry.</div>
+</div>
+<div id="plm_2019" style="display:none;">
+<div class="maptooltip_content">The Port of Hong Kong, located by the South China Sea, is a deepwater seaport dominated by trade in containerized manufactured products, and to a lesser extent raw materials and passengers.
+</div>
+</div>
+<div id="plm_894" style="display:none;">
+<div class="maptooltip_content">As an archipelago, Indonesia has several important ports including Balikpapan, Banjarmasin, Belawan, Benoa, Bitung, Gresik, Jakarta, Makassar, Merak, Padang, Semarang, Sorong, Surabaya and Tuban.</div>
+</div>
+<div id="plm_960" style="display:none;">
+<div class="maptooltip_content">Hiroshima, Osaka, Yokohama, Kesennuma and Tokyo are all major cities in Japan with great seaports that are busy with vessels coming in and out on a daily basis.</div>
+</div>
+<div id="plm_1027" style="display:none;">
+<div class="maptooltip_content">The ports of Tarawa and Kiribati are located in the island nation of Kiribati that lies in the central tropical Pacific Ocean.</div>
+</div>
+<div id="plm_2025" style="display:none;">
+<div class="maptooltip_content">The ports of Brunei, Labuan, Klang, and Penang are some of the busiest ports in the country. Located in the two split regions of Malaysia, these seaports host a ride array of maritime activities in the South China Sea.</div>
+</div>
+<div id="plm_1036" style="display:none;">
+<div class="maptooltip_content">The Marquesas Islands is a chain of isles in the south Pacific that are under the control of France.</div>
+</div>
+<div id="plm_1045" style="display:none;">
+<div class="maptooltip_content">The port of Majuro is the capital of the Republic of the Marshall Islands which is located in the middle of the Pacific Ocean.</div>
+</div>
+<div id="plm_1052" style="display:none;">
+<div class="maptooltip_content">The ports of Ensenada, Mazatlan, Manzanillo, and Salina Cruz are some of the busiest pacific ports in the country</div>
+</div>
+<div id="plm_1074" style="display:none;">
+<div class="maptooltip_content">The port of Noumea is the capital city of the French territory of New Caledonia. </div>
+</div>
+<div id="plm_1084" style="display:none;">
+<div class="maptooltip_content">New Zealand has many port cities with the major ones being Auckland, Whangarei (Marsden Point), Tauranga (Mt. Maunganui), Nelson, and Lyttelton (Christchurch)</div>
+</div>
+<div id="plm_2000" style="display:none;">
+<div class="maptooltip_content">Nicaragua is located in Central America with the Pacific Ocean to the west and the Caribbean Sea to the east. The port of Corinto is the country's only deep-water port capable of handling container ships and tankers.</div>
+</div>
+<div id="plm_1102" style="display:none;">
+<div class="maptooltip_content">Koror is a major economic site and the former capital of the Republic of Palau in the Pacific Ocean.</div>
+</div>
+<div id="plm_1554" style="display:none;">
+<div class="maptooltip_content">The ports of Rodman, Balboa, Cristobal, and Vacamonte are the busiest centers of the Panamanian maritime industry.</div>
+</div>
+<div id="plm_1569" style="display:none;">
+<div class="maptooltip_content">The Southeast Asian country of Papua New Guinea is home to excellent ports. This includes Wewak, Rabaul, Kimbe, Madang, Alotau, Kavieng, Lae and the capital Port Moresby.</div>
+</div>
+<div id="plm_1606" style="display:none;">
+<div class="maptooltip_content">The ports of Callao, Paita and Talara are the most important centers of Peru’s maritime industry in the Pacific.</div>
+</div>
+<div id="plm_51" style="display:none;">
+<div class="maptooltip_content">Located in Southeast Asia, the Philippines has some excellent ports where vessels come in to dock regularly.</div>
+</div>
+<div id="plm_104867" style="display:none;">
+<div class="maptooltip_content">To meet the demands of these ships in the area, Clipper Oil provide various products from ExxonMobil, Shell, and other independent oil firms. Clipper Oil supplies only the finest fuel in Russia.
+
+Clipper Oil is also a provider of Automotive Diesel Fuel, Unleaded Gasoline, Intermediate Fuel Oil (IFO), Marine Gas Oil (MGO), Jet Fuel, Kerosene, Heavy Crushed Coarse Salt, Anhydrous Ammonia and AV Gas 100LL.
+
+We are committed to giving the best possible service to our clients in Russia. 
+
+Clipper Oil can supply bunkers and bunker fuel in Russia.</div>
+</div>
+<div id="plm_1618" style="display:none;">
+<div class="maptooltip_content">The port city of Apia is the capital of Samoa and is the center of the island nation’s commerce and transport.</div>
+</div>
+<div id="plm_1624" style="display:none;">
+<div class="maptooltip_content">The ports of Singapore Harbor and Jurong Island are both located in the Southeast Asian city state of Singapore.</div>
+</div>
+<div id="plm_1634" style="display:none;">
+<div class="maptooltip_content">The Solomon Islands in the Pacific Ocean is home to the ports of Honiara and Noro. Honiara is the capital of the nation and is the center of its maritime industry.</div>
+</div>
+<div id="plm_1643" style="display:none;">
+<div class="maptooltip_content">The ports of Busan, Ulsan, Incheon, Mokpo, and Pohang are some of the most important maritime industry centers in South Korea.</div>
+</div>
+<div id="plm_1661" style="display:none;">
+<div class="maptooltip_content">Papeete is the capital of Tahiti, a French collective in the Pacific Ocean. Papeete is a busy port city, playing host to vessels that enter and exit its confines on a daily basis.</div>
+</div>
+<div id="plm_1667" style="display:none;">
+<div class="maptooltip_content">The Pacific island of Taiwan in the South China Sea is home to many industries.</div>
+</div>
+<div id="plm_1685" style="display:none;">
+<div class="maptooltip_content">The Southeast Asian nation of Thailand is home to some excellent seaports. Some of the busiest harbors are in Bangkok and others are in Laem Chabang, Phuket, Rayong , Sattahip, Siam Port, Songkhla, and Sriracha.</div>
+</div>
+<div id="plm_1717" style="display:none;">
+<div class="maptooltip_content">The Kingdom of Tonga in the South Pacific Ocean has some excellent seaports. Nuku'alofa, Vava'u, and Ha'apai are just some of these ports and Clipper Oil has established its presence in all of them.</div>
+</div>
+<div id="plm_1729" style="display:none;">
+<div class="maptooltip_content">The port city of Funafuti is the capital of the Pacific island nation of Tuvalu.</div>
+</div>
+<div id="plm_1735" style="display:none;">
+<div class="maptooltip_content">San Diego and San Francisco in California, USA are not only major cities, they also have major port areas. These are Clipper Oil’s two main hubs that help supply marine fuels and lubricant oils to the west coast’s many vessels.</div>
+</div>
+<div id="plm_1744" style="display:none;">
+<div class="maptooltip_content">Port Vila is the capital city of the Pacific island nation of Vanuatu. It is the economic and maritime center of the nation, overseeing the arrival and departure of many vessels daily.</div>
+</div>
+<div id="plm_2036" style="display:none;">
+<div class="maptooltip_content">The ports of Van Gia, Ho Chi Minh, Hai Phong, Go Dau, and Da Nang are all located in Southeast Asia in the country of Vietnam. </div>
+</div>
+</div>
+	
+	
+	
+  <!-- Table dump NOT WORKING :XXXXX-->	
+<div id='table-container'></div>
+
  
-    <div id="chart" class="chart">
-        Dynamic Chart will be here!
-    </div>
+<script>
+  CsvToHtmlTable.init({
+    csv_path: 'templates/clipper_and_lat_lng.csv',
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ' ', delimiter: ','},
+    datatables_options: {"paging": false}
+  });
+</script>
+		
+
+ <title>Geo JSON</title>
+
+  <!-- Leaflet CSS & JS  NOT WORKING  :XXXXX-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+  <!-- API key -->
+  <script type="text/javascript" src="config.js"></script>
+  <!-- Our JS -->
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+
+	
+	
+	
+	
+	
+	
+</body>
  
   <!-- Footer Section -->
   <footer>
