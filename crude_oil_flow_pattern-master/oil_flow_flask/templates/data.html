@@ -56,21 +56,47 @@
       <h3 class="title">Data</h3>
       <hr>
       <p>The following table includes all data analyzed during this project.</p>
+	  <div id='table-container'></div>
+
+ 
+<script>
+  CsvToHtmlTable.init({
+    csv_path: 'templates/clipper_and_lat_lng.csv',
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ' ', delimiter: ','},
+    datatables_options: {"paging": false}
+  });
+</script>
       <br>
       <div class="table-responsive" style="overflow-x:auto; overflow-y:auto; max-height:470px; max-width: auto;">
 
 <table class="table table-bordered table-hover table-condensed">
 <thead>
-    <tr><th title="Field #1">City_ID</th>
-    <th title="Field #2">City</th>
-    <th title="Field #3">Cloudiness</th>
-    <th title="Field #4">Country</th>
-    <th title="Field #5">Date</th>
-    <th title="Field #6">Humidity</th>
-    <th title="Field #7">Lat</th>
-    <th title="Field #8">Lng</th>
-    <th title="Field #9">Max Temp</th>
-    <th title="Field #10">Wind Speed</th>
+
+ <tr><th title="Field #1">vessel_class</th>
+    <th title="Field #2"	>	date	</th	>
+    <th title="Field #3"	>	point	</th	>
+    <th title="Field #4"	>	owner	</th	>
+    <th title="Field #5"	>	PORT	</th	>
+    <th title="Field #6"	>	country	</th	>
+    <th title="Field #7"	>	region	</th	>
+    <th title="Field #8"	>	area	</th	>
+    <th title="Field #9"	>	area_descr	</th	>
+    <th title="Field #10"	>	bbls	</th	>
+    <th title="Field #11"	>	bbls_nominal	</th	>
+    <th title="Field #12"	>	vessel_dwt	</th	>
+    <th title="Field #13"	>	ton_miles	</th	>
+    <th title="Field #14"	>	activity	</th	>
+    <th title="Field #15"	>	week	</th	>
+    <th title="Field #16"	>	month	</th	>
+    <th title="Field #17"	>	year	</th	>
+    <th title="Field #18"	>	brent	</th	>
+    <th title="Field #19"	>	wti	</th	>
+    <th title="Field #20"	>	delta	</th	>
+    <th title="Field #21"	>	lat	</th	>
+    <th title="Field #22"	>	lng	</th	>
+
     </tr></thead>
     <tbody><tr>
     <td align="right">0</td>
